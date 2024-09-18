@@ -46,7 +46,7 @@ const caracteresEspeciales = "!@#$%^&*()_+[]{}|;:,.<>?";
 //funcion copy pass
 function copyText() {
   // Obtener el campo de texto
-  var copyText = document.getElementById("contrasena");
+  let copyText = document.getElementById("contrasena");
 
   // Seleccionar el texto del campo
   copyText.select();
