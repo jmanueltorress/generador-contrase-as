@@ -57,6 +57,15 @@ function copyText() {
 
   // Opcional: Alerta para confirmar que se copió el texto
   // alert("Texto copiado: " + copyText.value);
+
+  // Mostrar el mensaje suave
+  let copyMessage = document.getElementById("copyMessage");
+  copyMessage.classList.add("show");
+
+  // Ocultar el mensaje después de 2 segundos
+  setTimeout(function() {
+      copyMessage.classList.remove("show");
+  }, 2000);
 }
   
   
