@@ -37,10 +37,26 @@ const caracteresEspeciales = "!@#$%^&*()_+[]{}|;:,.<>?";
     }
   }
   
-
+//funcion clear pass
   function cleanPass() {
    
       contrasena.value = ''; // Limpiar el campo de la contraseña
     }
+
+//funcion copy pass
+function copyText() {
+  // Obtener el campo de texto
+  var copyText = document.getElementById("contrasena");
+
+  // Seleccionar el texto del campo
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // Para dispositivos móviles
+
+  // Copiar el texto al portapapeles
+  document.execCommand("copy");
+
+  // Opcional: Alerta para confirmar que se copió el texto
+  // alert("Texto copiado: " + copyText.value);
+}
   
   

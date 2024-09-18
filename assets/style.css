@@ -104,7 +104,7 @@ h1 {
     font-family: 'Inter', sans-serif;
 }
 
-.boton {
+.boton, .boton-2,.boton-3 {
     color: white;
     font-size: 1.5rem;
     border: none;
@@ -117,17 +117,16 @@ h1 {
     cursor: pointer;
 }
 
-.boton-2 {
+.boton-2,.boton-3 {
     color: #1875E8;
-    font-size: 1.5rem;
-    border: none;
     background-color: #fff;
-    padding: 1rem 1.5rem;
-    border-radius: 16px;
-    width: 243px;
+   
+}
+.boton-3 {
+   
+    width: 100px;
     height: 72px;
-    box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
-    cursor: pointer;
+    
 }
 
 .container__contrasena {
